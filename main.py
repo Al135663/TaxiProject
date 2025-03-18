@@ -6,7 +6,7 @@ import gymnasium as gym
 env = gym.make('Taxi-v3')
 
 # Hyperparameters
-alpha = 0.9        # Learning rate (how much we update the Q-value)
+alpha = 0.1        # Learning rate (how much we update the Q-value)
 gamma = 0.95       # Discount factor (importance of future rewards)
 epsilon = 1.0      # Initial exploration rate
 epsilon_decay = 0.9995  # How much epsilon decreases per episode
